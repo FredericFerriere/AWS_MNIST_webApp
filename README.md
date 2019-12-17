@@ -113,3 +113,5 @@ Just enter the public IP of you web server in a browser. This will take you to i
 Just click predict and the result will be displayed.
 
 ![](webpage2.png)
+
+---
