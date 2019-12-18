@@ -6,7 +6,7 @@ In this project, we will deploy a web application and a web server to read manua
 
 From your web browser, you will be able to draw a digit on a canvas and get the model to predict the output as shown on the picture below.
 
-![Alt](https://github.com/FredericFerriere/AWS_MNIST_webApp/webPage2.png)
+![](./webPage2.png)
 
 
 ## AWS Architecture
@@ -104,7 +104,7 @@ $python flaskDigitReader.py
 
 Instance type: Linux2 AMI(t2.micro type ok)
 Instance Name: webServer.  
-Correct the file index.html and change the local IP 127.0.0.1 with the public IP of the Web App.  
+Correct the file index.html and change the local IP 127.0.0.1 with the public IP of the webApp instance.  
 Copy files index.html and the 'static' folder containing files index.hs and style.css
 
 $sudo yum update -y  
