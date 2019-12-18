@@ -8,6 +8,7 @@ From your web browser, you will be able to draw a digit on a canvas and get the 
 
 ![](webpage2.png)
 
+
 ## AWS Architecture
 
 A public instance to calibrate the model, ie train a CNN on the MNIST dataset.  
@@ -82,7 +83,8 @@ Just run all the cells. This will save a file cnn-mnist in the current directory
 
 ## Web App
 
-Instance type: Ubuntu Server 18.04 (t2.micro type should be enough)
+Instance type: Ubuntu Server 18.04 (t2.micro type should be enough).  
+Instance Name: webApp
 
 Copy the files flaskDigitReader.py and cnn-mnist to the remote instance.
 
@@ -101,7 +103,7 @@ $python flaskDigitReader.py
 ## Web Server
 
 Instance type: Linux2 AMI(t2.micro type ok)
-
+Instance Name: webServer.  
 Correct the file index.html and change the local IP 127.0.0.1 with the public IP of the Web App.  
 Copy files index.html and the 'static' folder containing files index.hs and style.css
 
@@ -119,6 +121,7 @@ Just enter the public IP of you web server in a browser. This will take you to i
 Just click predict and the result will be displayed.
 
 ![](webpage2.png)
+
 
 ## Next steps
 
