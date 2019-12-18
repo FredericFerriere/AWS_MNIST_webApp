@@ -6,7 +6,7 @@ In this project, we will deploy a web application and a web server to read manua
 
 From your web browser, you will be able to draw a digit on a canvas and get the model to predict the output as shown on the picture below.
 
-![](webpage2.png)
+![](./webpage2.png)
 
 
 ## AWS Architecture
@@ -120,7 +120,7 @@ $sudo service httpd start
 Just enter the public IP of you web server in a browser. This will take you to index.html, which allows you to draw a digit inside a canvas.  
 Just click predict and the result will be displayed.
 
-![](webpage2.png)
+![](./webpage2.png)
 
 
 ## Next steps
