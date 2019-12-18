@@ -6,7 +6,7 @@ In this project, we will deploy a web application and a web server to read manua
 
 From your web browser, you will be able to draw a digit on a canvas and get the model to predict the output as shown on the picture below.
 
-![Alt](https://github.com/fredericferriere/AWS_MNIST_webApp/webpage2.png)
+![Alt](https://github.com/FredericFerriere/AWS_MNIST_webApp/webpage2.png)
 
 
 ## AWS Architecture
